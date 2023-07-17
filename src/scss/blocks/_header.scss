@@ -4,13 +4,14 @@
   color: white;
 
   &__content {
+    margin: 0 auto;
     position: absolute;
     z-index: 10;
     top: 50px;
     left: 70px;
     right: 70;
     bottom: 80px;
-    width: 1778px;
+
     /* remove connection with click */
     pointer-events: none;
 
@@ -59,7 +60,7 @@
   &__slider-controls {
     pointer-events: all;
     position: absolute;
-    right: 0;
+    right: -125%;
     bottom: 0;
 
     pointer-events: all;
@@ -68,12 +69,14 @@
   &__scrollbar {
     pointer-events: all;
     position: absolute;
-    transform: translate(0, 50%);
-    z-index: 9;
-    right: 0;
-    left: auto;
-    width: 10px;
-    height: 400px;
-    background-color: aqua;
+
+    right: -125%;
+    top: 45%;
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+
+    transform: rotate(90deg) translate(50%, 0);
+    transform-origin: right top;
   }
 }
