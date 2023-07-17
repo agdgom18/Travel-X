@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 30px;
-  pointer-events: all;
 
   &__list {
     @media (max-width: 1200px) {
@@ -23,24 +22,6 @@
 
 .nav__list a {
   position: relative;
-
-  /* & a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    background-color: rgb(154, 29, 29);
-    bottom: -4px;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transdform 0.3s ease-in-out;
-  }
-
-  &:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
-  } */
 }
 
 .nav__list a::before {
