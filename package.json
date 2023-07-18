@@ -34,7 +34,8 @@
     ]
   },
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp docs"
   },
   "browserslist": [
     "last 5 versions"

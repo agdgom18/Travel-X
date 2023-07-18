@@ -66,28 +66,6 @@
   &__title span {
     padding: 0 10px;
   }
-
-  &--norway span {
-    background: linear-gradient(47.06deg, #042a3c -3.87%, rgba(255, 255, 255, 0) 20.89%), #fff;
-    @include backGround;
-    background-repeat: no-repeat;
-  }
-  &--austria span {
-    background: linear-gradient(47.06deg, #334148 -3.87%, rgba(255, 255, 255, 0) 20.89%), #fff;
-    @include backGround;
-  }
-  &--thailand span {
-    background: linear-gradient(47.06deg, #2b757e -3.87%, rgba(255, 255, 255, 0) 20.89%), #fff;
-    @include backGround;
-  }
-  &--uae span {
-    background: linear-gradient(47.06deg, #5a3d2d -3.87%, rgba(255, 255, 255, 0) 20.89%), #fff;
-    @include backGround;
-  }
-  &--marocco span {
-    background: linear-gradient(47.06deg, #aa795b -3.87%, rgba(255, 255, 255, 0) 20.89%), #fff;
-    @include backGround;
-  }
 }
 
 .slide__location {
@@ -109,20 +87,17 @@
 
 /* slides styles */
 .slide--norway {
-  background: var(--radial-bg), var(--linear-bg), url('../../img/slider-bg/01.jpg');
+  background: var(--radial-bg), var(--linear-bg), url('./../img/slider-bg/01.jpg');
 }
 .slide--austria {
-  background: var(--radial-bg), var(--linear-bg), url('../../img/slider-bg/02.jpg');
-}
-.slide--austria {
-  background: var(--radial-bg), var(--linear-bg), url('../../img/slider-bg/02.jpg');
+  background: var(--radial-bg), var(--linear-bg), url('./../img/slider-bg/02.jpg');
 }
 .slide--uae {
-  background: var(--radial-bg), var(--linear-bg), url('../../img/slider-bg/03.jpg');
+  background: var(--radial-bg), var(--linear-bg), url('./../img/slider-bg/03.jpg');
 }
 .slide--thailand {
-  background: var(--radial-bg), var(--linear-bg), url('../../img/slider-bg/04.jpg');
+  background: var(--radial-bg), var(--linear-bg), url('./../img/slider-bg/04.jpg');
 }
 .slide--morocco {
-  background: var(--radial-bg), var(--linear-bg), url('../../img/slider-bg/05.jpg');
+  background: var(--radial-bg), var(--linear-bg), url('./../img/slider-bg/05.jpg');
 }

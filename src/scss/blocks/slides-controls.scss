@@ -22,11 +22,8 @@
     line-height: 1;
     text-align: right;
   }
-
-  &__controls-count-current,
-  .swiper-pagination-current {
-    font-size: 32px;
-    line-height: 0.75;
-    color: white;
-  }
+}
+.swiper-pagination-current {
+  font-size: 28px;
+  line-height: 0.75;
 }
