@@ -37,20 +37,23 @@
   }
   &__tagline {
     position: absolute;
-    top: -20px;
+    top: -8px;
     width: 100%;
-    font-weight: 400;
-    font-size: 30px;
+    font-size: 1.56vw;
+    font-weight: 500;
     line-height: 1.23;
     letter-spacing: 0.55em;
     color: rgba(255, 255, 255, 0.7);
+
     @media (max-width: 767px) {
       font-size: 3vw;
     }
   }
 
   &__title {
-    /* font-size: 250px; */
+    display: inline-block;
+    padding: 0 10px;
+
     font-size: 13vw;
     font-weight: 700;
     line-height: 1.22;
